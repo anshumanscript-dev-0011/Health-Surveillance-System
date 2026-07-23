@@ -25,9 +25,9 @@ build/
 Thumbs.db
 
 .venv/
+__pycache__/
+*.py[cod]
 .env
 logs/
 media/
 staticfiles/
-__pycache__/
-
