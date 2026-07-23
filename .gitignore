@@ -24,16 +24,10 @@ build/
 .DS_Store
 Thumbs.db
 
-<<<<<<< HEAD
-.venv
-=======
-venv/
+.venv/
 .env
-__pycache__/
-*.pyc
-db.sqlite3
+logs/
 media/
 staticfiles/
-.pytest_cache/
-.coverage
->>>>>>> feature/backend-setup
+__pycache__/
+
