@@ -36,16 +36,22 @@ ALLOWED_HOSTS = config(
 # Application definition
 
 INSTALLED_APPS = [
+    #Django apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-     "rest_framework",
-     "corsheaders",
-     "drf_spectacular",
-     "rest_framework_simplejwt.token_blacklist",
+
+    #Third Party apps
+    "rest_framework",
+    "corsheaders",
+    "drf_spectacular",
+    "rest_framework_simplejwt.token_blacklist",
+
+    #Local apps
+    "apps.accounts",
 ]
 
 REST_FRAMEWORK = {
@@ -202,3 +208,5 @@ LOGGING = {
         "level": "INFO",
     },
 }
+
+AUTH_USER_MODEL = "accounts.User"

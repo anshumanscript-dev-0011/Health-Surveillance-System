@@ -190,10 +190,11 @@ This project is being developed collaboratively.
 Team members will be listed here along with their roles and responsibilities as development progresses.
 
 - Anshuman Barik
-- Atanu 
+- Farhan
 - Rakesh Kumar Sahoo
 - Dibya
 - Sristi
+- Muskan
 
 
 ## License
